@@ -1,0 +1,138 @@
+.Dashboard{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1350px;
+    min-height: 670px;
+}
+.Dashboard form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+.Dashboard button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Menu-Bar{
+    list-style: none;
+    display: inline-flex;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.80);
+    bottom: 15px;
+    left: 20px;
+    position: fixed;
+    background-color: #512da8;
+    height: 50px;
+    z-index: 10;
+    border-radius: 30px;
+    width: 1330px;
+}
+.Menu-Bar li:hover{
+    cursor: pointer;
+}
+#links.active{
+    
+    background-color: #fff;
+    color: #512da8;
+    border-radius: 30px; 
+    transition: 1s;
+    cursor: pointer;
+}
+#links{
+    color: #fff;
+    display: inline-block;
+    width: 266px;
+    padding-top: 10px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* 
+/* .stData button{
+    line-height: normal;
+}
+.space{
+    width: 100px;
+} */
+/* #buttons{
+    line-height: normal;
+} */
+/* Ensure tables have consistent formatting */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures all columns have a fixed width */
+  }
+  
+  /* Apply consistent width to table cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Align text to the left */
+    word-wrap: break-word; /* Ensures long text wraps within the cell */
+  }
+  
+  /* Define specific widths for labels and data cells */
+  td.label {
+    width: 25%;
+    font-size:85%; /* Adjust percentage as needed */
+    font-weight:500;
+  }
+  
+  td.data {
+    width: 30%; /* Adjust percentage as needed */
+    text-transform: capitalize;
+    font-size: 88%;
+    font-weight: bold;
+  }
+  
+  td.space {
+    width: 3%; /* Spacing columns */
+  }
+  
+  #buttons {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: normal;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+  }
+  #details{
+    line-height: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    width: 500pX;
+    margin-left: 100px;
+    color: black;
+    
+  }
+  .post{
+    width: 300px;
+  }
+  
